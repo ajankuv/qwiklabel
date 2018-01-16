@@ -1,4 +1,4 @@
-#qwiklabel v1 for vipparcel
+# qwiklabel v1 for vipparcel
 ---
 
 Uses datamade.us's usaddress lib to parse and format single line USA addresses into a printable label format for shipping.
@@ -30,7 +30,7 @@ lurl="https://vipparcel.com/api-test/v1/shipping/label/print"
 
 
 
-###required pip installs = flask, usaddress, requests
+### required pip installs = flask, usaddress, requests
 
 
 ![alt text](https://i.imgur.com/7RkDBjD.png)
