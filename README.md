@@ -30,7 +30,7 @@ lurl="https://vipparcel.com/api-test/v1/shipping/label/print"
 
 
 
-required pip installs = flask, usaddress, requests
+*required pip installs = flask, usaddress, requests*
 
 
 ![alt text](https://i.imgur.com/7RkDBjD.png)
