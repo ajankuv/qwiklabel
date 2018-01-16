@@ -9,18 +9,27 @@ My wife and I run a online store, and one of our good channels for sales is Merc
 The only things that need to be set are following below.
 
 vipkey="xxxxx"
+
 sfname="xxxxx"
+
 slname="xxxxx"
+
 scompany="xxxxx"
+
 saddress="xxxxx"
+
 scity="xxxxx"
+
 sstate="xxxxx"
+
 spostcode="xxxxx"
+
 
 These are your sending from details. You need to change these to match where you are sending from.  sfname=firstname slname=lastname and so on.
 
 
 By default the api url is set to dev, so you don't go spending money on shit postage while testing. Flip these once you feel its ready.
+
 
 #dev
 lurl="https://vipparcel.com/api-test/v1/shipping/label/print"
@@ -30,7 +39,8 @@ lurl="https://vipparcel.com/api-test/v1/shipping/label/print"
 
 required pip installs = flask, usaddress, requests
 
-![alt text](https://imgur.com/7RkDBjD)
+
+![alt text](https://i.imgur.com/7RkDBjD.png)
 
 
 
