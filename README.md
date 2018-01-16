@@ -9,19 +9,12 @@ My wife and I run a online store, and one of our good channels for sales is Merc
 The only things that need to be set are following below.
 
 vipkey="xxxxx"
-
 sfname="xxxxx"
-
 slname="xxxxx"
-
 scompany="xxxxx"
-
 saddress="xxxxx"
-
 scity="xxxxx"
-
 sstate="xxxxx"
-
 spostcode="xxxxx"
 
 
