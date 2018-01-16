@@ -33,12 +33,14 @@ lurl="https://vipparcel.com/api-test/v1/shipping/label/print"
 ### required pip installs = flask, usaddress, requests
 
 
-![alt text](https://i.imgur.com/7RkDBjD.png)
-
-
 
 There are a few bugs with the usaddress lib, I have contacted them about it for longer addresses and back country roads.
 ---
 Shout out to @rogerallen on github for providing the dictionary file for states abbreviations https://gist.github.com/rogerallen/1583593
 
 Also to datamade for their badass lib for formatting https://parserator.datamade.us/usaddress
+
+
+
+
+![alt text](https://i.imgur.com/7RkDBjD.png)
