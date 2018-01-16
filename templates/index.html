@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qwiklabel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/bootstrap/css/bootstrap.min.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>qwiklabel v1 - address parser + vipparcel label</h1>
+    </div>
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">input address below</h3>
+            </div>
+            <div class="panel-body">
+                <form action="/cklabel" method="post"><input class="form-control" type="text" id="address_id" name="addressraw"><button class="btn btn-warning btn-sm" type="submit" style="padding:5px;">Format </button></form></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/bootstrap/js/bootstrap.min.js') }}"></script>
+</body>
+
+</html>
