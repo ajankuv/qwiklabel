@@ -60,7 +60,7 @@ For shipping label printing.
 ---
 ## Running the software
 
-You can run this anyway you wish, I was running this just as "python server.py" off my mac for awhile just to ship fast. I ended up dockerizing it after finding the need to have it run 24/7.
+You can run this anyway you wish, I was running this just as `"python server.py"` off my mac for awhile just to ship fast. I ended up dockerizing it after finding the need to have it run 24/7.
 
 By default it runs on port 5611
 
