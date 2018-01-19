@@ -8,14 +8,14 @@ My wife and I run a online store, and one of our good channels for sales is Merc
 
 The only things that need to be set are following below.
 
-vipkey="xxxxx"  <br />
+`vipkey="xxxxx"  <br />
 sfname="xxxxx"  <br />
 slname="xxxxx"  <br />
 scompany="xxxxx"  <br />
 saddress="xxxxx"  <br />
 scity="xxxxx"  <br />
 sstate="xxxxx"  <br />
-spostcode="xxxxx"  
+spostcode="xxxxx"`
 
 
 These are your sending from details. You need to change these to match where you are sending from.  sfname=firstname slname=lastname and so on.
@@ -23,10 +23,10 @@ These are your sending from details. You need to change these to match where you
 
 By default the api url is set to dev, so you don't go spending money on shit postage while testing. Flip these once you feel its ready.
 
-
+`
 #dev
 lurl="https://vipparcel.com/api-test/v1/shipping/label/print"
-#prod lurl="https://vipparcel.com/api/v1/shipping/label/print"
+#prod lurl="https://vipparcel.com/api/v1/shipping/label/print"`
 
 
 
