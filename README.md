@@ -65,4 +65,4 @@ By default it runs on port 5611
 
 I prefer to run it via docker on my vm server. Here is how below..
 
-`docker build --no-cache -t qwiklabel && docker run --name qwiklabel -p 5611:5611 qwiklabel`
+`docker build --no-cache -t qwiklabel . && docker run --name qwiklabel -p 5611:5611 qwiklabel`
