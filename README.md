@@ -24,10 +24,9 @@ These are your sending from details. You need to change these to match where you
 By default the api url is set to dev, so you don't go spending money on shit postage while testing. Flip these once you feel its ready.
 
 
-#dev
-lurl="https://vipparcel.com/api-test/v1/shipping/label/print"
+#dev <br />
+lurl="https://vipparcel.com/api-test/v1/shipping/label/print" <br />
 #prod lurl="https://vipparcel.com/api/v1/shipping/label/print"
-
 
 
 ### required pip installs = flask, usaddress, requests
